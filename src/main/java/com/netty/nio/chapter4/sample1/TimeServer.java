@@ -1,8 +1,4 @@
-package com.netty.nio.sample1;
-
-import java.io.IOException;
-import java.net.ServerSocket;
-import java.net.Socket;
+package com.netty.nio.chapter4.sample1;
 
 public class TimeServer {
 
