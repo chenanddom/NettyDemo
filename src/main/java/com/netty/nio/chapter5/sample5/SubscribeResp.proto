@@ -1,0 +1,9 @@
+syntax = "proto2";
+option java_package = "com.netty.nio.chapter5.sample5";
+option java_outer_classname = "SubscibeRespProto";
+
+message SubscribeResp{
+    required int32 subReqID=1;
+    required int32 respCode=2;
+    required string desc=3;
+}
